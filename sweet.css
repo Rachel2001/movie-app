@@ -12,11 +12,32 @@
 h1 {
   color: white;
 }
-div {
-  color: white;
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-horizontal .navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-horizontal .nav-link {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .search-bar {
   width: 300px;
   margin-bottom: 20px;
+  justify-content: flex-left;
+}
+
+.btn {
+  width: 100px;
+  margin-bottom: 20px;
+  justify-content: flex-left;
+}
+
+.search-engine {
+  padding-left: 350px;
 }
