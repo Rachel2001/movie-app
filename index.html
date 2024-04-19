@@ -22,20 +22,6 @@
       <div class="container">
         <a class="navbar-brand" href="/">Movie Website</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="series.html">Series</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="movies.html">Movies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="upcoming.html">Upcoming</a>
-            </li>
-          </ul>
           <form class="d-flex align-items-center search-engine">
           <input
             class="form-control me-2 search-bar"
@@ -48,6 +34,13 @@
         </div>
       </div>
     </nav>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"&times;</a>
+        <div class="overlay-content" id="overlay-content"></div>
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8658;</a>
+    </div>
+
     <script src="sour.js"></script>
   </body>
 </html>
